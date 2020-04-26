@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
+    <link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+    <link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
+    <link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
+    <title>Statistical Report for Corona-Virus </title>
+    <style>
+        
+
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+
+        .heading {
+            width: 40%;
+            padding: 1%;
+            margin: 0% 0% 0% 6%;
+
+        }
+
+        #navhead {
+            font-family: 'Girassol', cursive;
+
+            font-size: 32px;
+            font-weight: 400;
+        }
+
+        .navbar {
+            /* background-color: gray; */
+            border-bottom: 2px solid grey;
+        }
+
+        .content {
+            width: 70%;
+            height: 720px;
+            background-color: azure;
+            border: 2px solid gray;
+            margin: 40px auto;
+        }
+
+        .covidhead {
+            margin: auto;
+            TEXT-ALIGN: center;
+        }
+
+        #covidheadtext {
+
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            font-weight: 200;
+            font-size: 40px;
+
+        }
+
+        #covidheadid {
+            padding: 20px;
+            /* margin:auto; */
+        }
+
+        .casesid {
+            text-align: center;
+            font-weight: 300;
+            font-size: 36px;
+            margin-top: 58px;
+            margin-bottom: 5px;
+        }
+
+
+        .casesnoid {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+            color: gray;
+            font-size: 50px;
+        }
+
+        #noid {
+            padding-bottom: 25px;
+        }
+
+
+        #link {
+            float: right;
+            width: 140px;
+            height: 37px;
+            background: #9e9eec;
+            border-radius: 12px;
+            margin: auto auto;
+            text-align: center;
+            padding-top: 9px;
+        }
+
+        a {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration: none;
+        }
+
+        #btn {
+
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration: none;
+
+            font-weight: bold;
+            color: blue;
+            text-align: center;
+
+        }
+
+        .imgcontent {
+            width: 70%;
+            height: 800px;
+            margin: auto;
+            border: 2px solid red;
+            border-radius: 12px;
+            padding: 8px;
+
+        }
+
+        .precausion {
+            width: 42%;
+            height: 300px;
+            border: 2px solid blue;
+            border-radius: 12px;
+            margin: 30px;
+            padding: 19px;
+            background-color: lightblue;
+            /* text-align: justify; */
+        }
+
+        #firstpara {
+            float: left;
+        }
+
+        #secondpara {
+            float: right
+        }
+
+        #thirdpara {
+            float: left;
+        }
+
+        #fourpara {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="heading">
+                <span id="navhead">Statistical Report for Corona-Virus</span>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="content">
+
+        <div class="covidhead">
+            <span id="covidheadtext"> COVID-19 CORONAVIRUS PANDEMIC</span>
+        </div>
+        <div class="covidhead">
+            <h5 style="text-align: center; font-weight: 100; margin-bottom:50px ">Last updated: April 19, 2020, 07:03
+                GMT</h5>
+        </div>
+        <div class="covidhead" id="covidheadid">
+            <span class="casesid">Coronavirus Cases:</span>
+        </div>
+        <div class="covidhead" id="noid">
+            <span class="casesnoid">2,351,163</span>
+        </div>
+
+        <div class="covidhead" id="covidheadid">
+            <span class="casesid">Deaths:</span>
+        </div>
+        <div class="covidhead" id="noid">
+            <span class="casesnoid" style="color:rgb(0,0,0);">161,275</span>
+        </div>
+
+
+
+
+        <div class="covidhead" id="covidheadid">
+            <span class="casesid">Recoverd:</span>
+        </div>
+
+        <div class="covidhead" id="noid">
+            <span class="casesnoid" style="color:green">606,208</span>
+        </div>
+
+        <div class="covidhead" id="link">
+            <a id="btn" href="https://www.worldometers.info/coronavirus/" target="-blank">Read more:</a></div>
+
+    </div>
+
+    <div class="imgcontent">
+        <div class="precausion" id="firstpara">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo quidem rerum doloribus reiciendis
+                assumenda inventore, necessitatibus quae sed cumque debitis aut. Officia esse laboriosam velit nulla
+                consequuntur totam, repellat quis? Laboriosam, quos architecto!</p>
+        </div>
+        <div class="precausion" id="secondpara">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo quidem rerum doloribus reiciendis
+                assumenda inventore, necessitatibus quae sed cumque debitis aut. Officia esse laboriosam velit nulla
+                consequuntur totam, repellat quis? Laboriosam, quos architecto!</p>
+        </div>
+        <div class="precausion" id="thirdpara">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo quidem rerum doloribus reiciendis
+                assumenda inventore, necessitatibus quae sed cumque debitis aut. Officia esse laboriosam velit nulla
+                consequuntur totam, repellat quis? Laboriosam, quos architecto!</p>
+        </div>
+        <div class="precausion" id="fourpara">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo quidem rerum doloribus reiciendis
+                assumenda inventore, necessitatibus quae sed cumque debitis aut. Officia esse laboriosam velit nulla
+                consequuntur totam, repellat quis? Laboriosam, quos architecto!</p>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

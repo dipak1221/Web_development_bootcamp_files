@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning in CSS</title>
+    <style>
+        .container {
+            height: 1330px;
+            border: 2px solid black;
+            color: khaki;
+        }
+
+        .box {
+            border: 2px solid black;
+            width: 200px;
+            height: 120px;
+            background-color: lightcoral;
+            color: black;
+            font-size: 30px;
+            margin: 12px;
+            display: inline-block;
+
+        }
+
+        #box3 {
+            /* relative means move the block from its previous position */
+            /* position: relative;
+            top: 122px;
+            left: 42px;
+
+            /* absolute means move the block wrt  parent  position */
+            /* position: relative;
+            top: 122px;
+            left: 42px;
+ */
+            /* fixed wrt to specifix position of frame  use for chat  */
+            /* position:fixed;
+            top:3px; */
+        
+        /* sticky will remain where it is and as user scroll it will stick to repective position */
+            position: sticky;
+            top: 3px;
+            /* bottom:4px; */
+            left: 822px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id dolorum libero esse. Nobis ratione esse sint
+            ipsam saepe consectetur facere quam voluptatum assumenda doloremque voluptate blanditiis itaque hic
+            perferendis reiciendis rerum expedita laborum, totam adipisci voluptas provident! Minima vero, consequatur
+            qui soluta, tempore perferendis possimus amet tenetur ut enim iusto in, vel nobis nostrum ab assumenda
+            laboriosam necessitatibus eaque dolore aut. Quibusdam facilis nostrum nisi nemo eius cupiditate doloribus,
+            at ipsam maxime error sint placeat laboriosam consequatur, expedita quod. Mollitia unde dolore cumque ipsam
+            necessitatibus exercitationem voluptatem dicta quo, optio soluta quibusdam inventore non rem dignissimos
+            doloribus asperiores nobis suscipit eum obcaecati nesciunt! Tempore hic quibusdam voluptatem vitae nisi
+            beatae, non facere quidem cumque suscipit repellat eius fuga ad reiciendis eveniet sapiente assumenda
+            doloremque porro quam cum voluptas dolore. Totam minima repudiandae distinctio dolorem cum, ut id qui
+            voluptatum blanditiis, minus adipisci inventore et perspiciatis aliquam. Laudantium corporis quaerat sunt
+            earum sed, sint quia similique placeat commodi possimus aliquam animi cumque maiores blanditiis saepe,
+            nostrum ipsa sequi atque magnam? Id deleniti quis alias consequuntur officiis aut voluptatum. Id nostrum
+            harum odio veritatis necessitatibus. Alias debitis ipsum, quas sequi officiis hic obcaecati blanditiis totam
+            dolorum cumque magni exercitationem eum quo veniam facere quae modi beatae! Impedit qui ducimus beatae nemo
+            dolorum praesentium sunt sapiente, reiciendis vero molestiae autem, eveniet excepturi eius magnam quo dolor
+            officia. Aliquid quaerat unde aut ea impedit labore commodi officia odit. Repellat quam fugiat cupiditate
+            ratione consequatur dolor perferendis quisquam porro libero facilis molestiae, rem, ullam illo hic labore
+            iusto recusandae! Aperiam fugiat impedit iste assumenda dolores, repellendus id autem tempora soluta
+            cupiditate voluptatum cumque aliquid excepturi, harum odit quam culpa, amet voluptates quia. Quae laboriosam
+            iste impedit quaerat, voluptatem voluptates placeat reiciendis, libero, quas non praesentium eaque eos sint
+            quod culpa. Quo necessitatibus beatae aut voluptas ex, quidem quam et. Debitis nesciunt deserunt ipsam iusto
+            expedita voluptas dolorem veritatis, quisquam eaque. Porro doloribus nulla molestiae id esse soluta suscipit
+            quibusdam fugiat sunt, vitae facilis quisquam delectus eos fugit. Cum, deleniti nostrum aperiam ab sint
+            ipsum omnis in nesciunt perferendis, et, voluptatibus excepturi ipsam. Quidem nulla placeat, nostrum odio
+            expedita quisquam enim ex nihil, vero, ullam assumenda dignissimos qui perspiciatis. Ipsa sunt nulla odio?
+            Voluptates unde placeat quaerat quibusdam deleniti harum natus minus officiis voluptate adipisci ipsam,
+            eligendi sed itaque amet est dolore ipsum consequuntur autem cum culpa earum enim tempora accusantium. Unde
+            nostrum iste praesentium incidunt itaque repudiandae nemo perferendis quas obcaecati nobis libero aperiam
+            sed voluptatibus reiciendis fugit neque, harum id quam! Maiores, impedit unde error, aut distinctio neque
+            vero accusamus id nesciunt, minima voluptates in? Temporibus quidem soluta porro libero saepe officiis odit,
+            consectetur voluptatem doloribus illum laboriosam!</p>
+
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box4">4</div>
+        <div class="box" id="box3">Chat with us</div>
+        <!-- <span style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta corrupti, unde ea mollitia vero eligendi est -->
+        <!-- dolorem magni, tempora illo qui sint earum recusandae quibusdam soluta quis animi inventore iste velit nisi!
+            Ullam, exercitationem!</span> -->
+
+    </div>
+</body>
+
+</html>
