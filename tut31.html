@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Selector</title>
+    <style>
+        h1{
+            background-color: red;
+            text-align: center;
+        }
+        /* > bracket means p exact after div */ 
+            /* + means on p siblings after div */
+        div + p{
+            background-color:blue;
+            color:aqua;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>This is on more Selector
+    </h1>
+
+    <div class="container">
+        <div class="box">
+            <ul> <li class="item">  <p>This is in box para</p></li></ul>
+        <p>This is in container para</p>
+
+        </div>
+        <p>This is in container para</p>
+
+    </div>
+    <p>This is in outer data para</p>
+    
+</body>
+</html>
